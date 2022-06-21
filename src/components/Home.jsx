@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Typography, Row, Col, Statistic,
 } from 'antd';
+import millify from 'millify';
 import { useGetCryptosQuery } from '../services/cryptoApi';
 
 const { Title } = Typography;
@@ -15,7 +16,7 @@ const Home = () => {
       <Title level={2} className="heading"> Ger Crypto Stats</Title>
       <Row>
         <Col span={12}><Statistic title="All Crypto Currencies" value={globalStats.total} /></Col>
-        <Col span={12}><Statistic title="All Crypto Currencies" value="5" /></Col>
+        <Col span={12}><Statistic title="All Crypto Currencies" value={millify(globalStats.totalExchanges)} /></Col>
         <Col span={12}><Statistic title="All Crypto Currencies" value="5" /></Col>
         <Col span={12}><Statistic title="All Crypto Currencies" value="5" /></Col>
       </Row>

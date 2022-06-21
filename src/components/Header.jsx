@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-  AudioOutlined, SettingOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined,
+  AudioOutlined, SettingOutlined, FundOutlined,
 } from '@ant-design/icons';
 import {
-  Avatar, Typography, Menu, Button,
+  Avatar, Typography,
 } from 'antd';
 import './styles/Header.css';
 import icon from './images/icon-crypto.png';
