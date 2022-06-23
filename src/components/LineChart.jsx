@@ -4,15 +4,20 @@ import { Col, Row, Typography } from 'antd';
 
 const { Title } = Typography;
 
+// eslint-disable-next-line react/prop-types
 const LineChart = ({ coinHistory, currentPrice, coinName }) => {
   const coinPrice = [];
   const coinTimestamp = [];
 
+  // eslint-disable-next-line react/prop-types
   for (let i = 0; i < coinHistory?.data?.history?.length; i += 1) {
+    // eslint-disable-next-line react/prop-types
     coinPrice.push(coinHistory?.data?.history[i].price);
   }
 
+  // eslint-disable-next-line react/prop-types
   for (let i = 0; i < coinHistory?.data?.history?.length; i += 1) {
+    // eslint-disable-next-line react/prop-types
     coinTimestamp.push(new Date(coinHistory?.data?.history[i].timestamp).toLocaleDateString());
   }
   const data = {
