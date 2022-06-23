@@ -12,6 +12,7 @@ const AllCrypto = ({ simplified }) => {
   const [cryptos, setCryptos] = useState(cryptosList?.data?.coins);
   const [searchTerm, setSearchTerm] = useState('');
   useEffect(() => {
+    // eslint-disable-next-line max-len
     const filterData = cryptosList?.data?.coins?.filter((coin) => coin.name.toLowerCase().includes(searchTerm.toLowerCase()));
     setCryptos(filterData);
   }, [cryptosList, searchTerm]);

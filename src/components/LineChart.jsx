@@ -57,6 +57,7 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
         <Col className="price-container">
           <Title level={5} className="price-change">
             Change:
+            {/* eslint-disable-next-line react/prop-types */}
             {coinHistory?.data?.change}
             %
           </Title>
