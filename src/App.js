@@ -4,9 +4,8 @@ import {
 import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
-import About from './components/About';
-import Coin from './components/Coin';
-import CoinDetails from './components/CoinDetails';
+import CryptoDetails from './components/CryptoDetails';
+import AllCrypto from './components/AllCrypto';
 import Footer from './components/Footer';
 
 function App() {
@@ -15,10 +14,9 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/coin" element={<Coin />} />
-          <Route path="/coinDetails/:coinId" element={<CoinDetails />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/allCrypto" element={<AllCrypto />} />
+          <Route exact path="/crypto/:coinId/" element={<CryptoDetails />} />
         </Routes>
         <Footer />
       </Router>
