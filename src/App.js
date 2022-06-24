@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/allCrypto" element={<AllCrypto />} />
-          <Route exact path="/crypto/:coinId/" element={<CryptoDetails />} />
+          <Route exact path="/crypto/:uuid/" element={<CryptoDetails />} />
         </Routes>
         <Footer />
       </Router>

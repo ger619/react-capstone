@@ -28,10 +28,6 @@ const Home = () => {
         <Title level={3} className="show-more"><Link to="/allCrypto">Show More Coins</Link></Title>
       </div>
       <AllCrypto simplified />
-      <div className="home-heading-container">
-        <Title level={2} className="home-title"> Latest Cryptocurrencies News</Title>
-        <Title level={3} className="show-more"><Link to="/about">Show More Coins...</Link></Title>
-      </div>
     </>
   );
 };

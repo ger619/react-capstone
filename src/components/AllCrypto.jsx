@@ -28,8 +28,8 @@ const AllCrypto = ({ simplified }) => {
 
       <Row gutter={[28, 28]} className="crypto-card-container">
         {cryptos?.map((crypto) => (
-          <Col xs={24} sm={12} lg={6} className="crypto-card" key={crypto.id}>
-            <Link to={`/crypto/${crypto.id}`}>
+          <Col xs={24} sm={12} lg={6} className="crypto-card" key={`${crypto.uuid}${Math.random * 10}`}>
+            <Link to={`/crypto/${crypto.uuid}`}>
               <Card
                 title={`${crypto.rank}.${crypto.name}`}
                 extra={<img className="crypto-image" src={crypto.iconUrl} style={{ width: 48 }} alt="Crypto" />}
