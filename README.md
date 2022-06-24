@@ -24,7 +24,7 @@ Live Demo [Ger Crypto netlify ](https://deploy-preview-1--storied-cobbler-ece3f1
 
 You can download or clone this project by running this command from your terminal:
 
-git clone `https://github.com/ger619/react-capstone.git`
+git clone [link](https://github.com/ger619/react-capstone.git)
 This will create a directory in the name of the project folder.
 
 Once you have the project files and folders, open it with your text editor.
