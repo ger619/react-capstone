@@ -9,8 +9,8 @@ import {
   // eslint-disable-next-line max-len
   MoneyCollectOutlined, DollarCircleOutlined, FundOutlined, ExclamationCircleOutlined, StopOutlined, TrophyOutlined, CheckOutlined, NumberOutlined, ThunderboltOutlined,
 } from '@ant-design/icons';
-
 import { useGetCryptoDetailsQuery } from '../services/cryptoApi';
+import './styles/CryptoDetails.css';
 
 const { Title, Text } = Typography;
 

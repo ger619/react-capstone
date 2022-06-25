@@ -1,0 +1,24 @@
+.home {
+  padding: 1rem;
+}
+
+.heading {
+  text-align: center;
+}
+
+.home-heading-container {
+  display: flex;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.home-heading-container p {
+  padding-right: 2rem;
+}
+
+.home-heading-container p:nth-child(even) {
+  float: right;
+  font-size: 1rem;
+  text-align: right;
+  padding-top: 1rem;
+}

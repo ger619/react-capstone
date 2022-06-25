@@ -5,6 +5,8 @@ import {
   Card, Row, Col, Input,
 } from 'antd';
 import { useGetCryptosQuery } from '../services/cryptoApi';
+import './styles/CryptoDetails.css';
+
 // eslint-disable-next-line react/prop-types
 const AllCrypto = ({ simplified }) => {
   const count = simplified ? 10 : 100;
@@ -26,9 +28,9 @@ const AllCrypto = ({ simplified }) => {
         </div>
       )}
 
-      <Row gutter={[28, 28]} className="crypto-card-container">
+      <Row gutter={[10, 10]} className="crypto-card-container">
         {cryptos?.map((crypto) => (
-          <Col xs={24} sm={12} lg={6} className="crypto-card" key={`${crypto.uuid}${Math.random * 10}`}>
+          <Col xs={12} sm={12} lg={6} className="crypto-card" key={`${crypto.uuid}${Math.random * 10}`}>
             <Link to={`/crypto/${crypto.uuid}`}>
               <Card
                 title={`${crypto.rank}.${crypto.name}`}
