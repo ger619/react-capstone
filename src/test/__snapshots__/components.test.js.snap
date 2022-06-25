@@ -17,21 +17,3 @@ exports[`Test Components test Home 1`] = `
   Loading...
 </div>
 `;
-
-exports[`Test Components test My Profile 1`] = `
-<div>
-  Loading...
-</div>
-`;
-
-exports[`Test Components test My Profile Link 1`] = `
-<div>
-  Loading...
-</div>
-`;
-
-exports[`Test Components test Rockets 1`] = `
-<div>
-  Loading...
-</div>
-`;
