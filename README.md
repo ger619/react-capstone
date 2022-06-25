@@ -14,6 +14,7 @@ This is a Cryptocurrencies Details Web App
 
 Live Demo [Ger Crypto netlify ](https://deploy-preview-1--storied-cobbler-ece3f1.netlify.app/)
 
+Here is a video link behind the [technology](https://www.loom.com/share/f095ec4b07884ac28618e2fb72074ee9)
 ## Built With
 
 - React
