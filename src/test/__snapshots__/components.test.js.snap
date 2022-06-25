@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Components test AllCrypto 1`] = `
+<div>
+  Loading...
+</div>
+`;
+
+exports[`Test Components test CryptoDetails 1`] = `
+<div>
+  Loading...
+</div>
+`;
+
+exports[`Test Components test Home 1`] = `
+<div>
+  Loading...
+</div>
+`;
