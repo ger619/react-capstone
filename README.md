@@ -64,7 +64,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to code reviewers and to everyone who reviewed the project and made suggestions.
-- Special thanks  to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs), as required by the [Creative Commons License 💯](https://creativecommons.org/licenses/)
+- Special thanks  to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the author of the original [design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs), as required by the [Creative Commons License 💯](https://creativecommons.org/licenses/)
   
 
 ## 📝 License
